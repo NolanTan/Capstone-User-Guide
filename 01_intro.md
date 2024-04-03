@@ -1,5 +1,5 @@
 # 1. Introduction and General Overview
-
+[Take Me Home](README.md)
 <br>
 
 ## Introduction
@@ -23,7 +23,7 @@ Traditionally, B+-trees are used for this data structure for its efficient handl
 
 <div align=center>
     <h3>What Makes an LSM-tree?</h3>
-    <img src="pictures/lsm_overview.svg" alt="LSM Overview" width="700"></img>
+    <img src="pictures/lsm_overview.svg" alt="LSM Overview" width="700">
 </div>
 
 <br>
@@ -31,3 +31,7 @@ Traditionally, B+-trees are used for this data structure for its efficient handl
 An LSM-tree consists of an in-memory memtable that can either use a skip list or balanced tree as its data structure.
 
 It also has on-disk storage that uses multiple SSTables to store data on-disk.
+
+[Next: Main Components of an LSM-tree](02_main_components.md)
+
+<br>

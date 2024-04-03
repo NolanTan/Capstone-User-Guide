@@ -1,5 +1,5 @@
 # 3. Main Optimizations for an LSM-tree
-
+[Take Me Home](README.md)
 <br>
 
 ## Compaction
@@ -31,3 +31,5 @@
 ## Other Optimizations?
 
 It’s important to note that there are more optimizations that LSM-trees can utilize. How LSM-trees are implemented and what optimizations they choose to implement depends on the use case of the LSM-tree.
+
+[Next: How to Use the Application](04_application_guide.md)

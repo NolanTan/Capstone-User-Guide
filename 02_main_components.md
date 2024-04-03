@@ -1,5 +1,5 @@
 # 2. Main Components of an LSM-tree
-
+[Take Me Home](README.md)
 <br>
 
 ## Memory Component
@@ -34,3 +34,7 @@ ___
 </div>
 <br>
 The diagram above models the main components of an LSM-tree.
+
+[Next: Main Optimizations for an LSM-tree](03_optimizations.md)
+
+<br>

@@ -1,4 +1,5 @@
 # 4. How to Use the Application
+[Take Me Home](README.md)
 
 <br>
 
@@ -41,3 +42,5 @@ This application is a simulation/visual representation of the main components of
     - If a 0 is displayed above an SSTable, then the Bloom filter reported that the data is not contained, and a binary search was not performed.
 
 - When a read occurs and the result is found, the result will be highlighted where it was found.
+
+<br>
