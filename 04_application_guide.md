@@ -4,7 +4,7 @@
 <br>
 
 <div align=center>
-    <img src="pictures/lsm_app.svg" alt="LSM Overview" width="700"></img>
+    <img src="pictures/lsm_app.svg" alt="LSM App" width="700"></img>
 </div>
 <br>
 

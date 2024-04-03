@@ -30,7 +30,7 @@ ___
 
 <div align=center>
     <h3>LSM-tree Diagram</h3>
-    <img src="pictures/lsm_diagram.svg" alt="LSM Overview" width="700"></img>
+    <img src="pictures/lsm_diagram.svg" alt="LSM Diagram" width="700"></img>
 </div>
 <br>
 The diagram above models the main components of an LSM-tree.
