@@ -4,11 +4,13 @@
 <br>
 
 <div align=center>
-    <img src="pictures/lsm_app.svg" alt="LSM App" width="700"></img>
+    <img src="pictures/lsm_app.svg" alt="LSM App" width="700">
 </div>
 <br>
 
-This application is a simulation/visual representation of the main components of an LSM-tree and how it behaves. This application is divided into three panels.
+This application is a simulation/visual representation of the main components of an LSM-tree and how it behaves.
+
+This application is divided into three panels.
 
 ## Top Right Panel
 
