@@ -2,13 +2,13 @@
 
 #### Author: Nolan Flinchum
 
-Last revised: 4/3/2024
+Last revised: 4/4/2024
 
 ## Description
 
 This guide is a part of my Capstone II project: Educational Application for LSM-trees.
 
-This user's guide will briefly cover topics covering:
+This user's guide will briefly cover these topics:
 
   - the basics of how an LSM-tree works
   - how the application should be used

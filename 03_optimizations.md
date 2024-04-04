@@ -30,6 +30,32 @@
 
 ## Other Optimizations?
 
-It’s important to note that there are more optimizations that LSM-trees can utilize. How LSM-trees are implemented and what optimizations they choose to implement depends on the use case of the LSM-tree.
+It’s important to note that there are more ways to optimize LSM-trees. 
+
+Here are some examples:
+
+- Partitioning
+
+    - Distribute data across multiple storage devices or nodes.
+    - Can improve parallelism for read and write operations.
+    - Each partition operates independently, which can enhance overall system throughput.
+
+- Multi-threaded Compaction
+
+    - LSM-trees with lots of data could use multi-threaded compaction.
+    - Parallelize the merging of SSTables so compaction is more efficient.
+
+- Fine-tune Bloom Filter Performance
+
+    - Minimize false positives by finding the right hashes, bit array size, etc.
+
+- Write-ahead Log
+
+    - To prevent data loss in the event of failure, LSM-trees can implement a write-ahead logging mechanism.
+    - Data changes are first written to a log on disk before being committed to the memtable.
+
+<br>
+
+**How LSM-trees are implemented and what optimizations they choose to implement depends on the use case of the LSM-tree.**
 
 [Next: How to Use the Application](04_application_guide.md)
