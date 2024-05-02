@@ -2,7 +2,7 @@
 
 #### Author: Nolan Flinchum
 
-Last revised: 4/4/2024
+Last revised: 5/1/2024
 
 ## Description
 
@@ -10,8 +10,8 @@ This guide is a part of my Capstone II project: Educational Application for LSM-
 
 This user's guide will briefly cover these topics:
 
-  - the basics of how an LSM-tree works
-  - how the application should be used
+- the basics of how an LSM-tree works
+- how the application should be used
 
 ## Table of Contents
 
@@ -22,4 +22,3 @@ This user's guide will briefly cover these topics:
 3. [Main Optimizations for an LSM-tree](03_optimizations.md)
 
 4. [How to Use the Application](04_application_guide.md)
-   
