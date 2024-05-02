@@ -8,7 +8,20 @@
 - All incoming writes are appended to the memory component, which is also known as the memtable.
   Treating the memtable as a log is what makes handling write throughput so efficient.
 
-- Memtables implement a data structure to store data.
+- Memtables implement a data structure to store data. This simulation uses a skip list to store
+  the memtable's data.
+
+- A skip list is a multi-layered linked list data structure. The base level has
+  all the nodes, but searches start at the top layer with the least amount of nodes, skipping
+  over elements for a fast search.
+
+<div align=center>
+    <h3>Skip list Diagram</h3>
+    <img src="pictures/skiplist.png" alt="LSM Diagram" width="500">
+    <br>
+    The diagram above models a skip list.
+</div>
+<br>
 
 - When the memtable gets full, the data is flushed as a Sorted String Table (SSTable),
   which is stored in the first layer of the disk section.
