@@ -60,6 +60,8 @@
 
 - The entry that marks the data as deleted is referred to as a tombstone.
 
+<br>
+
 ## Other Optimizations?
 
 It’s important to note that there are more ways to optimize LSM-trees.
